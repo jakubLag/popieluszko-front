@@ -11,6 +11,7 @@ function App() {
       descriptionColor: "white",
       photoUrl: "#",
       bgColor: "red",
+      textOrientation: "left"
     },
     {
       id: 1,
@@ -21,6 +22,7 @@ function App() {
       descriptionColor: "white",
       photoUrl: "#",
       bgColor: "red",
+      textOrientation: "left"
     },
     {
       id: 2,
@@ -31,6 +33,7 @@ function App() {
       descriptionColor: "black",
       photoUrl: "#",
       bgColor: "white",
+      textOrientation: "right"
     },
   ];
   return (
