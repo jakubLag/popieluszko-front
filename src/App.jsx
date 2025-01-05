@@ -1,5 +1,6 @@
 import { Navbar } from "./components/Navbar";
 import { Card } from "./components/Card";
+import { Footer } from "./components/Footer";
 function App() {
   const Data = [
     {
@@ -42,6 +43,7 @@ function App() {
       {Data.map((card) => (
         <Card key={card.id} data={card} />
       ))}
+      <Footer />
     </main>
   );
 }
